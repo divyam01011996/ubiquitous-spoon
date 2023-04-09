@@ -9,7 +9,7 @@ name: Java CI with Gradle
 
 on:
   push:
-    branches:["divyam01011996-patch-1","master","main"]
+    branches: ["divyam01011996-patch-1","master","main"]
   pull_request:
     branches: [ "master" ]
 
