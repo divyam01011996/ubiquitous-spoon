@@ -36,8 +36,6 @@ jobs:
       uses: actions/checkout@master
     - name: Build with Gradle
       run: ./gradlew build --no-daemon
-    - name: Publish package
-      uses: gradle/gradle-build-action@67421db6bd0bf253fb4bd25b31ebb98943c375e1
     - name: Publish Artifacts
       uses: actions/upload-artifact@v3
       with:
