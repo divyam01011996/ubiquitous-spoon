@@ -1,4 +1,4 @@
-package com.example.hibernate.demo.service;
+package com.example.service;
 
 public class CustomerData {
 

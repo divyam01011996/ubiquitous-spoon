@@ -1,6 +1,6 @@
-package com.example.hibernate.demo.repo;
+package com.example.repo;
 
-import com.example.hibernate.demo.entity.Data;
+import com.example.entity.Data;
 import org.springframework.data.jpa.repository.JpaRepository;
  
 public interface AddressRepoc extends JpaRepository<Data, Integer> {

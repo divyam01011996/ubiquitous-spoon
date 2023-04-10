@@ -1,4 +1,4 @@
-package com.example.hibernate.demo.entity;
+package com.example.entity;
 
 
 import lombok.Getter;

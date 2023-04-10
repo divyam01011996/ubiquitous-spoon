@@ -1,7 +1,7 @@
-package com.example.hibernate.demo.repo;
+package com.example.repo;
 
 
-import com.example.hibernate.demo.entity.Customer;
+import com.example.entity.Customer;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

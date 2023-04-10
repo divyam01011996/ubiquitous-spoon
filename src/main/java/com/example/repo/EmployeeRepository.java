@@ -1,6 +1,6 @@
-package com.example.hibernate.demo.repo;
+package com.example.repo;
 
-import com.example.hibernate.demo.entity.Employee;
+import com.example.entity.Employee;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface EmployeeRepository extends JpaRepository<Employee, Integer> {

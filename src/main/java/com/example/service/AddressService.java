@@ -1,7 +1,7 @@
-package com.example.hibernate.demo.service;
+package com.example.service;
 
-import com.example.hibernate.demo.entity.Address;
-import com.example.hibernate.demo.repo.AddressRepository;
+import com.example.entity.Address;
+import com.example.repo.AddressRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

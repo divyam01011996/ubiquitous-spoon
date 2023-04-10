@@ -1,9 +1,9 @@
-package com.example.hibernate.demo;
+package com.example;
 
-import com.example.hibernate.demo.entity.Customer;
-import com.example.hibernate.demo.entity.Data;
-import com.example.hibernate.demo.repo.AddressRepoc;
-import com.example.hibernate.demo.repo.CustomerRepository;
+import com.example.entity.Customer;
+import com.example.entity.Data;
+import com.example.repo.AddressRepoc;
+import com.example.repo.CustomerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;

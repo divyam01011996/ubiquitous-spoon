@@ -19,10 +19,10 @@
 <!--        <property name="hibernate.dbcp.initialSize">5</property>-->
 <!--        <property name="hibernate.dbcp.maxTotal">20</property><property name="hibernate.dbcp.maxIdle">10</property><property name="hibernate.dbcp.minIdle">5</property><property name="hibernate.dbcp.maxWaitMillis">-1</property>-->
 <!--        &lt;!&ndash;        <mapping class="com.example.demo.dto.DatEmployee" />&ndash;&gt;-->
-<!--        <mapping class="com.example.hibernate.demo.entity.Customer" />-->
-<!--        <mapping class="com.example.hibernate.demo.entity.Data" />-->
+<!--        <mapping class="entity.com.example.Customer" />-->
+<!--        <mapping class="entity.com.example.Data" />-->
 <!--&lt;!&ndash;        <mapping class="com.example.hibernate.demo.entity.StudentInformation" />&ndash;&gt;-->
-<!--&lt;!&ndash;        <mapping class="com.example.hibernate.demo.entity.Address" />&ndash;&gt;-->
+<!--&lt;!&ndash;        <mapping class="entity.com.example.Address" />&ndash;&gt;-->
 
 <!--    </session-factory>-->
 <!--</hibernate-configuration>-->

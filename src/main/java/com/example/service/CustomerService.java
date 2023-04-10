@@ -1,4 +1,4 @@
-package com.example.hibernate.demo.service;
+package com.example.service;
 
 import org.springframework.transaction.annotation.Transactional;
 

@@ -1,9 +1,9 @@
-package com.example.hibernate.demo.controller;
+package com.example.controller;
 
-import com.example.hibernate.demo.entity.Employee;
-import com.example.hibernate.demo.service.CustomerData;
-import com.example.hibernate.demo.service.CustomerService;
-import com.example.hibernate.demo.service.EmployeeService;
+import com.example.entity.Employee;
+import com.example.service.CustomerData;
+import com.example.service.CustomerService;
+import com.example.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
