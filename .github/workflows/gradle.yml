@@ -35,7 +35,9 @@ jobs:
     - name: Checkout Branch
       uses: actions/checkout@master
     - name: Build with Gradle
-      run: ./gradlew build --no-daemon
+      run: |
+        ./gradlew build --no-daemon 
+        git update-index --chmod=+x gradlew
     - name: Publish Artifacts
       uses: actions/upload-artifact@v3
       with:
